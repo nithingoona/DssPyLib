@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "DssPyLib"
+version = "0.2.0"
+authors = [
+  { name="Nithin Goona", email="nithin.goona@gmail.com" },
+]
+description = "Python package for calculating 2-D integral and finite element numerical solutions for Poisson equation with simple non-overlapping shapes. The package provides additional support to apply Distributed Source Scheme."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nithingoona/dsspylib"
+"Bug Tracker" = "https://github.com/nithingoona/dsspylib/issues"
