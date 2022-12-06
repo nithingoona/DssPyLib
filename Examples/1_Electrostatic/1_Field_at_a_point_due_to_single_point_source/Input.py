@@ -38,7 +38,7 @@ def Geometry(figSize = "Default", showPlot = False):
                                     True, # is_parent
                                     [2], # Child domains
                                     [], # Parent domains
-                                    50)) # non, Predefined no. of nodes
+                                    10)) # non, Predefined no. of nodes
 
     # Domain 1
     initialDomains.append(Point(0, # Width
@@ -67,7 +67,7 @@ def Geometry(figSize = "Default", showPlot = False):
 
     if figSize == "Default":
         figSize = (20, 20 * initialDomains[0].height/ initialDomains[0].width)
-    
+
     initialDomains[0].defaultFigSize = (20, 20 * initialDomains[0].height/ initialDomains[0].width)
     initialDomains[0].figSize = figSize
     print("The shape of global domain is", initialDomains[0].shape, "(From input.py)")
@@ -126,7 +126,7 @@ def Materials(colorbarPosition = "right", figSize = "Default", showPlot = False)
     None
     """
 
-    # Material property of points and lines will not be considered as material property is bulk property 
+    # Material property of points and lines will not be considered as material property is bulk property
     initialDomains = joblib.load("Data/initialDomains.sav")
 
     initialDomains[0].material = 1
