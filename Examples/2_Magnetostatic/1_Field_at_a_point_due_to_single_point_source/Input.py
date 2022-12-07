@@ -38,7 +38,7 @@ def Geometry(figSize = "Default", showPlot = False):
                                     True, # is_parent
                                     [2], # Child domains
                                     [], # Parent domains
-                                    50)) # non, Predefined no. of nodes
+                                    20)) # non, Predefined no. of nodes
 
     # Domain 1
     initialDomains.append(Point(0, # Width
