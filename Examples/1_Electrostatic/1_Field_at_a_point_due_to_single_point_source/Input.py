@@ -70,7 +70,6 @@ def Geometry(figSize = "Default", showPlot = False):
 
     initialDomains[0].defaultFigSize = (20, 20 * initialDomains[0].height/ initialDomains[0].width)
     initialDomains[0].figSize = figSize
-    print("The shape of global domain is", initialDomains[0].shape, "(From input.py)")
 
     if not os.path.exists('Data'):
         os.mkdir('Data')
