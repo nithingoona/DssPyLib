@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+DssPyLib.egg-info/PKG-INFO
+DssPyLib.egg-info/SOURCES.txt
+DssPyLib.egg-info/dependency_links.txt
+DssPyLib.egg-info/requires.txt
+DssPyLib.egg-info/top_level.txt
