@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: DssPyLib
+Version: 0.2.5
+Summary: 2-D Finite Element Package
+Home-page: https://github.com/nithingoona/dsspylib
+Author: Nithin Goona
+License: UNKNOWN
+Keywords: fem,softwareX,Poisson equation
+Platform: UNKNOWN
+Requires-Python: <4,>=3.8
+License-File: LICENSE
+
+Python package for calculating 2-D integral and finite element numerical solutions for Poisson equation with simple non-overlapping shapes. The package provides additional support to apply Distributed Source Scheme.
+
